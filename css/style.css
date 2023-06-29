@@ -125,6 +125,7 @@ body{
 .herobutton:hover,
 .herobutton:focus {
     color: var(--section-hover-focus-color);
+    background-color: var(--section-hover-focus-color);
 }
 
     /*Advantages*/
