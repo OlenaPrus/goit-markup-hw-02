@@ -12,9 +12,6 @@
     --section-hover-focus-color: #404BBF;  
 }
 
-a {
-    text-decoration: none;
-  }
           
 body{
     font-family: 'Raleway', sans-serif;
@@ -27,9 +24,7 @@ body{
     /*приховані заголовки*/
 
       overflow: hidden;
-      clip: rect(0 0 0 0);
-      clip-path: inset(50%);
-      margin: -1px;
+      
 }
   .header-top {
     font-size: 16px;
