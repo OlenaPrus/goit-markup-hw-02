@@ -8,8 +8,7 @@
     --white-background-color: #ffffff;
     --black-color: #000000;
     --hover-focus-color: #4D5AE5;
-    --button-hover-focus-color: #404BBF;
-      
+    --button-hover-focus-color: #404BBF;     
 }
 
 a {
@@ -232,6 +231,7 @@ a {
     letter-spacing: 0.02em;
     color: var(--team-bg-color);
 }
+/*Portfolio*/
 .portfolio {
     background-color: var(--white-background-color);
 }
