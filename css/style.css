@@ -1,0 +1,275 @@
+:root{
+    --primary-text-color: #434455;
+    --primary-bg-color: #f5f5f5;
+    --accent-bg-color: #E7E9FC;
+    --team-bg-color: #F4F4FD;
+    --title-text-color: #2E2F42;
+    --accent-color: #2196f3;
+    --white-background-color: #ffffff;
+    --black-color: #000000;
+    --hover-focus-color: #4D5AE5;
+    --button-hover-focus-color: #404BBF;
+      
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    display: inline;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-weight: inherit;
+    font-size: inherit;
+  }
+    
+  html,
+  body {
+    height: 100%;
+    line-height: 1;
+  }
+
+  body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--primary-text-color);
+    background-color: var(--white-background-color);
+}
+.visually-hidden {
+    /*приховані заголовки*/
+
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+}
+  .header-top {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    align-items: center;
+}
+.linklogo {
+    font-size: 18px;
+    font-family: Raleway;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--hover-focus-color);
+}
+.logopart {
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+.menuheader {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.menuheader:hover,
+.menuheader:focus {
+  color: var(--hover-focus-color);
+}
+
+.contactmail {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.contacttel {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.hero {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: var(--title-text-color);
+}
+.herotitle {
+    /*Effective Solutions for Your Business*/
+    font-size: 56px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white-background-color);
+}
+.herobutton {
+    /*Order Service*/
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    background: var(--hover-focus-color);
+    color: var(--white-background-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.herobutton:hover,
+.herobutton:focus {
+    color: var(--accent-bg-color);
+}
+
+    /*Advantages*/
+
+.advantage-title {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.advantage-text {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+
+.boxestitle {
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team {
+    background-color: var(--team-bg-color);
+}
+.team-title {
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-text-color);
+}
+.team-card {
+    background-color: var(--white-background-color);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-name {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.team-job {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+
+}
+.footer {
+    background-color: var(--title-text-color);
+}
+.logopartfooter {
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--team-bg-color);
+}
+.footer-text {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--team-bg-color);
+}
+.portfolio {
+    background-color: var(--white-background-color);
+}
+
+.button-portfolio {
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--hover-focus-color);
+    border-radius: 4px;
+    border: 1px solid var(--accent-bg-color);
+    background: var(--team-bg-color);
+    cursor: pointer;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--button-hover-focus-color);
+  color: var(--white-background-color);
+}
+.card{
+    background-color: var(--white-background-color);
+}
+.head-portfolio {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.portfolio-text {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
