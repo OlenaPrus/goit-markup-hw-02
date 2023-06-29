@@ -47,13 +47,8 @@ a {
 .visually-hidden {
     /*приховані заголовки*/
 
-      position: absolute;
       white-space: nowrap;
-      width: 1px;
-      height: 1px;
       overflow: hidden;
-      border: 0;
-      padding: 0;
       clip: rect(0 0 0 0);
       clip-path: inset(50%);
       margin: -1px;
@@ -65,8 +60,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
-    align-items: center;
 }
+
 .link {
     text-decoration: none;
 }
@@ -103,7 +98,7 @@ a {
 }
 .menuheader:hover,
 .menuheader:focus {
-  color: var(--hover-focus-color);
+    color: var(--hover-focus-color);
 }
 .address {
     font-style: normal;
@@ -154,10 +149,8 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    border-radius: 4px;
     background: var(--hover-focus-color);
     color: var(--white-background-color);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 .herobutton:hover,
@@ -263,15 +256,13 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--hover-focus-color);
-    border-radius: 4px;
-    border: 1px solid var(--accent-bg-color);
     background: var(--team-bg-color);
     cursor: pointer;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
-  background-color: var(--button-hover-focus-color);
-  color: var(--white-background-color);
+    background-color: var(--button-hover-focus-color);
+    color: var(--white-background-color);
 }
 .card{
     background-color: var(--white-background-color);
