@@ -24,13 +24,7 @@ a {
     vertical-align: top;
   }
   
-  h1,
-  h2,
-  h3 {
-    font-weight: inherit;
-    font-size: inherit;
-  }
-    
+     
   html,
   body {
     height: 100%;
@@ -47,7 +41,6 @@ a {
 .visually-hidden {
     /*приховані заголовки*/
 
-      white-space: nowrap;
       overflow: hidden;
       clip: rect(0 0 0 0);
       clip-path: inset(50%);
@@ -98,7 +91,7 @@ a {
 }
 .menuheader:hover,
 .menuheader:focus {
-    color: var(--hover-focus-color);
+    color: var(--button-hover-focus-color);
 }
 .address {
     font-style: normal;
