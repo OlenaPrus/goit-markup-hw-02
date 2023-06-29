@@ -81,7 +81,7 @@ body{
 }
 
 .contact:hover,
-.contact:focus, {
+.contact:focus {
     color: var(--button-hover-focus-color);
 }
 .hero {
