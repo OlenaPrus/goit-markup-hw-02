@@ -8,7 +8,8 @@
     --white-background-color: #ffffff;
     --black-color: #000000;
     --hover-focus-color: #4D5AE5;
-    --button-hover-focus-color: #404bbf;     
+    --button-hover-focus-color: #404bbf;   
+    --section-hover-focus-color: #404BBF;  
 }
 
 a {
@@ -123,7 +124,7 @@ body{
 }
 .herobutton:hover,
 .herobutton:focus {
-    color: var(--button-hover-focus-color);
+    color: var(--section-hover-focus-color);
 }
 
     /*Advantages*/
