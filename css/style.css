@@ -85,10 +85,7 @@ body{
     color: var(--button-hover-focus-color);
 }
 .hero {
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
+    
     background: var(--title-text-color);
 }
 .herotitle {
