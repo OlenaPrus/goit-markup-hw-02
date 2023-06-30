@@ -80,6 +80,7 @@ body{
 }
 .herobutton {
     /*Order Service*/
+    font-size: 16px;
     font-family: inherit;
     font-weight: 500;
     line-height: 1.5;
@@ -175,6 +176,7 @@ body{
 
 .button-portfolio {
     
+    font-size: 16px;
     font-family: inherit;
     font-weight: 500;
     line-height: 1.5;
